@@ -1,4 +1,7 @@
 llm:
+  # Download model from Hugging Face before running:
+  # https://huggingface.co/Qwen/Qwen2.5-7B-Instruct-1M-GGUF/blob/main/Qwen2.5-7B-Instruct-1M-Q4_K_M.gguf
+  # Place it at: models/llm/Qwen2.5-7B-Instruct-1M-Q4_K_M.gguf
   model_path: models/llm/Qwen2.5-7B-Instruct-1M-Q4_K_M.gguf
 
   # Context window
